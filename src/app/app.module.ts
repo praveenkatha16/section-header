@@ -3,10 +3,14 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { SectionHeaderComponent } from './section-header/section-header.component';
+import { SectionTypeDirective } from './section-type.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SectionHeaderComponent,
+    SectionTypeDirective
   ],
   imports: [
     BrowserModule,
